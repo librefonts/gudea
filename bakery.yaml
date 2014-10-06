@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [Gudea-Regular.ttf.ttx, Gudea-Italic.ttf.ttx, Gudea-Bold.ttf.ttx, src/Gudea-Regular.otf.ttx,
+  src/Gudea-Italic.otf.ttx, src/Gudea-Bold.otf.ttx, src/Gudea-Regular-TTF.sfd, src/Gudea-Italic-TTF.sfd,
+  src/Gudea-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
